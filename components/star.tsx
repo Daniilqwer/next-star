@@ -29,17 +29,17 @@ const Star = ({left, animationDelay, time}) => {
 			animationDelay: `${animationDelay}s`,
 
 			[mq[0]]: {
-	          left: `${left - 40}px`
-	        },
-	        [mq[1]]: {
-	          left: `${left - 70}px`
-	        },
-	        [mq[2]]: {
-	          left: `${left - 150}px`
-	        },
-	        [mq[3]]: {
-	          left: `${left - 190}px`
-	        },
+	          	  left: `${left - 40}px`
+			},
+			[mq[1]]: {
+			  left: `${left - 70}px`
+			},
+			[mq[2]]: {
+			  left: `${left / 2}px`
+			},
+			[mq[3]]: {
+			  left: `${left / 3}px`
+			},
 		});
  
 		return (
